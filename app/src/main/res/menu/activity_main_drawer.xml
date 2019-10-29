@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_combustivel"
+            android:icon="@drawable/ic_local_gas_station_black_24dp"
+            android:title="Combustível" />
+        <item
+            android:id="@+id/nav_oleo"
+            android:icon="@drawable/ic_oleo_black_24dp"
+            android:title="Óleo" />
+        <item
+            android:id="@+id/nav_seguros"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Seguros" />
+        <item
+            android:id="@+id/nav_manutencao"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manutenção" />
+    </group>
+
+    <item android:title="Sobre o EcoDrive">
+        <menu>
+            <item
+                android:id="@+id/nav_compartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhe o EcoDrive" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_school_black_24dp"
+                android:title="Gustavo Lovera" />
+        </menu>
+    </item>
+
+</menu>
